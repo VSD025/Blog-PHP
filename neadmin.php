@@ -13,7 +13,11 @@ $otvet = mysqli_query($con,'SELECT * FROM `posts`');
     </head>
     <body>
  	<header>
- 		<!-- шапка блога -->
+ 		<style>
+ 			article {
+ 				text-align: center
+ 			}
+ 		</style>
  	</header>
  	<article> 
  		<?
