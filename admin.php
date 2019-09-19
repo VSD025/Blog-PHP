@@ -6,27 +6,22 @@ $otvet = mysqli_query($con,'SELECT * FROM `posts`');
 $con = mysqli_connect(db_server,db_user,db_pass,db_name); ?>
 <?php
 if(isset($_POST['title'])){
-	$sql = mysqli_query($con, "INSERT INTO  `posts` (title,content)  VALUES('{$_POST['title']}', '{$_POST['content']}')");
-	if ($sql) {
-      echo '<p>Данные успешно добавлены в таблицу.</p>';
-      echo "<meta http-equiv='refresh' content='0'>";
-    } else {
-      echo '<p>Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+	if(!empty($_POST['title']) && !empty($_POST['content'])) {
+		echo "All fields are required!";
+		$sql = mysqli_query($con, "INSERT INTO  `posts` (title,content)  VALUES('{$_POST['title']}', '{$_POST['content']}')");
+		if ($sql) {
+      		echo '<p>Данные успешно добавлены в таблицу.</p>';
+      		echo "<meta http-equiv='refresh' content='0'>";
+    	} else {
+      		echo '<p>Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+    	}
     }
-
 if(isset($_POST['del'])){
-	$del = "deletePost.php";
-	$connect = mysqli_connect("localhost","root","rootroot","blog") or die("Ошибка " . mysqli_error($link));
-	$query = "SELECT FROM posts WHERE (id=".$_GET['id'].")";
-	mysqli_query($link, $query) or die('Удаление не удалось: ' . mysqli_error());
-    echo "<meta http-equiv='refresh' content='0'>";	
+    // echo "<meta http-equiv='refresh' content='0'>";	
 }
 
 
- 
-
 }
-
 ?>
 <html lang="en">
     <head>

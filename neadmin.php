@@ -13,6 +13,7 @@ $otvet = mysqli_query($con,'SELECT * FROM `posts`');
     </head>
     <body>
  	<header>
+ 		<input value="Back" type="button" onclick="history.back()">
  	</header>
  	<article> 
  		<?

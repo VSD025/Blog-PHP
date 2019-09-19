@@ -3,7 +3,7 @@
 <?php require("includes/constants.php");
 $con = mysqli_connect(db_server,db_user,db_pass,db_name); ?>
 <?php
-if(isset($_POST["login"])){
+if(isset($_POST["signin"])){
 	if(!empty($_POST['username']) && !empty($_POST['password'])) {
 		$username=htmlspecialchars($_POST['username']);
 		$password=htmlspecialchars($_POST['password']);
@@ -45,7 +45,7 @@ type="text" value=""></label></p>
 <p><label for="user_pass">Password<br>
  <input class="input" id="password" name="password"size="20"
   type="password" value=""></label></p> 
-	<p class="submit"><input class="button" name="login"type= "submit" value="Log In"></p>
+	<p class="submit"><input class="button" name="signin"type= "submit" value="Log In"></p>
 <a href= "neadmin.php">As guest</a>
    </form>
  </div>
