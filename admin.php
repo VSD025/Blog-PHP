@@ -37,14 +37,16 @@ if(isset($_POST['del'])){
     </head>
     <body>
  	<header>
+ 		<div>
  		<form action="" method="POST">
 		<!-- <input type="button" value="Add new post" onClick='location.href="new_post.html"'> -->
-		<h3>Title</h3>
-		<p><input type="text" name="title" /><br></p>
-		<h3>Content</h3>
-		<p><textarea name="content"></textarea><br></p>
-		<input type="submit" name="send" value="post"> 
+		<h3 style="text-align: center;">Title</h3>
+		<p><input type="text" name="title" size="70" style="display: block; margin: 0 auto;" /><br></p>
+		<h3 style="text-align: center;">Content</h3>
+		<p><textarea name="content" rows="22" cols="100" style="display: block; margin: 0 auto;"></textarea><br></p>
+		<input type="submit" name="send" value="post" style="display: block; margin: 0 auto;"> 
 		</form>
+		</div>
  	</header>
  	<article> 
  		<?

@@ -14,6 +14,14 @@
    color: #f58220;
 	}
 
+	h3 {
+		text-align: center;
+	}
+
+	.button_submit {
+		text-align: center;
+	}
+
 	.mlogin {
    margin: 170px auto 0;
 	}
