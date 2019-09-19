@@ -16,12 +16,8 @@ if(isset($_POST['title'])){
       		echo '<p>Произошла ошибка: ' . mysqli_error($connect) . '</p>';
     	}
     }
-if(isset($_POST['del'])){
-    // echo "<meta http-equiv='refresh' content='0'>";	
 }
 
-
-}
 ?>
 <html lang="en">
     <head>
@@ -45,15 +41,14 @@ if(isset($_POST['del'])){
  	</header>
  	<article> 
  		<?
+ 			$del = "delete.php";
  			while($row = mysqli_fetch_assoc($otvet)){
  			echo "<section>
  			<h2>{$row['title']}</h2>
  			{$row['content']}
  			</section>";
- 			echo ' 
- 			<form action="" method="POST">
- 				<input type="submit" name="del" value="delete">
- 			</form>';
+ 			echo "<a href='delete.php?id=".$row['id']."'>Удалить</a></div>";
+ 			
 		}
  			
  		?>
