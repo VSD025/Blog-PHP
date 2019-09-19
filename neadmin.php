@@ -13,11 +13,6 @@ $otvet = mysqli_query($con,'SELECT * FROM `posts`');
     </head>
     <body>
  	<header>
- 		<style>
- 			article {
- 				text-align: center
- 			}
- 		</style>
  	</header>
  	<article> 
  		<?
