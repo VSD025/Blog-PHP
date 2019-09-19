@@ -15,8 +15,9 @@ if(isset($_POST['title'])){
     }
 
 if(isset($_POST['del'])){
+	$del = "deletePost.php";
 	$connect = mysqli_connect("localhost","root","rootroot","blog") or die("Ошибка " . mysqli_error($link));
-	$query = "DELETE FROM posts WHERE (id=".$_GET['id'].")";
+	$query = "SELECT FROM posts WHERE (id=".$_GET['id'].")";
 	mysqli_query($link, $query) or die('Удаление не удалось: ' . mysqli_error());
     echo "<meta http-equiv='refresh' content='0'>";	
 }
