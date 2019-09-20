@@ -10,10 +10,10 @@ if(isset($_POST['title'])){
 		echo "All fields are required!";
 		$sql = mysqli_query($con, "INSERT INTO  `posts` (title,content)  VALUES('{$_POST['title']}', '{$_POST['content']}')");
 		if ($sql) {
-      		echo '<p>Данные успешно добавлены в таблицу.</p>';
+      		echo '<p>Data recorded</p>';
       		echo "<meta http-equiv='refresh' content='0'>";
     	} else {
-      		echo '<p>Произошла ошибка: ' . mysqli_error($connect) . '</p>';
+      		echo '<p>Connection error ' . mysqli_error($connect) . '</p>';
     	}
     }
 }
@@ -28,6 +28,9 @@ if(isset($_POST['title'])){
     </head>
     <body>
  	<header>
+ 		<form>
+		<input type="button" value="Back" onClick='location.href="index.php"'>
+		</form>
  		<div>
  		<form action="" method="POST">
 		<!-- <input type="button" value="Add new post" onClick='location.href="new_post.html"'> -->
@@ -47,7 +50,7 @@ if(isset($_POST['title'])){
  			<h2>{$row['title']}</h2>
  			{$row['content']}
  			</section>";
- 			echo "<a href='delete.php?id=".$row['id']."'>Удалить</a></div>";
+ 			echo "<a href='delete.php?id=".$row['id']."'><input type='button' value='Delete'></a></div>";
  			
 		}
  			

@@ -47,6 +47,7 @@ type="text" value=""></label></p>
   type="password" value=""></label></p> 
 	<p class="submit"><input class="button" name="signin"type= "submit" value="Log In"></p>
 <a href= "neadmin.php">As guest</a>
+<a href= "signon.php"><br>Sign on</a>
    </form>
  </div>
   </div>

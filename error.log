@@ -29,3 +29,17 @@
 [Thu Sep 19 18:53:46.459723 2019] [php7:error] [pid 4998] [client 127.0.0.1:49785] script '/Users/vsevolod/Sites/Lab4/deletePost.php' not found or unable to stat, referer: http://first.com/admin.php
 [Thu Sep 19 18:54:10.241574 2019] [php7:error] [pid 5568] [client 127.0.0.1:49879] script '/Users/vsevolod/Sites/Lab4/deletePost.php' not found or unable to stat, referer: http://first.com/admin.php
 [Thu Sep 19 18:54:22.592535 2019] [php7:error] [pid 5570] [client 127.0.0.1:49933] script '/Users/vsevolod/Sites/Lab4/deletePost.php' not found or unable to stat, referer: http://first.com/admin.php
+[Fri Sep 20 10:22:52.659502 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:53.758306 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:53.970987 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:54.145707 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:54.311201 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:54.490410 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:54.873630 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:22:55.089244 2019] [php7:error] [pid 439] [client 127.0.0.1:52044] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:23:00.930549 2019] [php7:error] [pid 243] [client 127.0.0.1:52045] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/index.php
+[Fri Sep 20 10:25:25.883013 2019] [php7:error] [pid 452] [client 127.0.0.1:52052] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/signon.php
+[Fri Sep 20 10:25:54.475404 2019] [php7:error] [pid 243] [client 127.0.0.1:52055] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/signon.php
+[Fri Sep 20 10:27:48.429169 2019] [php7:error] [pid 440] [client 127.0.0.1:52057] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat, referer: http://first.com/signon.php
+[Fri Sep 20 10:30:09.658925 2019] [php7:error] [pid 439] [client 127.0.0.1:52099] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat
+[Fri Sep 20 10:30:11.201727 2019] [php7:error] [pid 439] [client 127.0.0.1:52099] script '/Users/vsevolod/Sites/Lab4/register.php' not found or unable to stat
